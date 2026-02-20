@@ -35,4 +35,16 @@ class mahasiswa {
             return "Kinerja kurang";
         }
     }
+
+    //konstruktor default
+    public mahasiswa() {
+
+    }
+    //konstruktor dengan parameter
+    public mahasiswa (String nm, String nim, double ipk, String kls) {
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
 }
