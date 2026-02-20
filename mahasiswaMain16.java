@@ -11,9 +11,13 @@ public class mahasiswaMain16 {
         mhs1.updateIpk(3.6);
         mhs1.tampilkanInformasi();
 
-        //new object
+        
         mahasiswa mhs2 = new mahasiswa ("Dodo", "254107060033", 3.2, "SIB 1D");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        //object baru
+        mahasiswa mhsMuhammadAbhiramaPutra = new mahasiswa("Muhammad Abhirama Putra", "254107060032", 3.7, "SIB 1D");
+        mhsMuhammadAbhiramaPutra.tampilkanInformasi();
     }
 }
